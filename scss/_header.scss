@@ -1,0 +1,28 @@
+/* Header */
+
+
+header {
+    background-color: $color-rojo ;
+    margin: 0px 0px;
+    padding: 1rlh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    
+    width: 40rch;
+    padding: 0 ;
+    padding-bottom: 5%;
+    margin: 0;
+}
+
+a {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+    font-size:x-large;
+    text-decoration: none;
+}

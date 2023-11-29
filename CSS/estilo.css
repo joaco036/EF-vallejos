@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+body {
+  background-color: antiquewhite;
+  text-align: center;
+  display: block;
+}
+
+img {
+  width: 50%;
+  margin: 2% 0%;
+}
+
+/* Ul */
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 2% 0% 0% 0%;
+}
+
+/* Header */
+header {
+  background-color: #CF573A;
+  margin: 0px 0px;
+  padding: 1rlh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 40rch;
+  padding: 0;
+  padding-bottom: 5%;
+  margin: 0;
+}
+
+a {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 10px;
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  border-top: 1px black solid;
+  padding: 1%;
+  background-color: #CF573A;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Manin */
+main {
+  margin: 10px;
+}
+
+h1 {
+  text-decoration: underline;
+  margin: 30px 10px;
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.flyer {
+  color: black;
+  margin-top: 12%;
+}
+
+.contacto {
+  width: 1;
+  display: inline;
+}
+
+iframe {
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Tarjetas */
+.tarjetas {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  border: 1px solid black;
+  align-items: center;
+  display: inline-block;
+  transition: 1s;
+}
+
+.img {
+  height: 50%;
+  width: 50%;
+}
+
+.tarjetas:hover {
+  background-color: #CF573A;
+  height: 500px;
+  width: 500px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* contacto */
+form {
+  margin: 20px;
+  border-radius: 150px;
+}
+
+label {
+  display: block;
+  margin: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+input textarea {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-bottom: 55px;
+  border: 1px solid wheat;
+  width: 100%;
+}
+
+.botones {
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: gray;
+  display: inline-block;
+  text-align: center;
+  border-radius: 360px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilo.css.map */
