@@ -5,6 +5,16 @@
     font-weight: bold;
 }
 
+@mixin tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-block;
+    transition: 1s;
+}
+
 main {
     margin: 10px;
 }
@@ -41,17 +51,51 @@ h2 {
 
 /* Tarjetas */
 
+@media (min-width:1439px){
+    .tarjetas {
+        height: 20vw;
+        width: 20vw;
+        @include tarjeta
+    }
+    
+}
 
-.tarjetas {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ddd;
-    border: 1px solid black;
-    align-items: center;
-    display: inline-block;
-    transition: 1s;
+@media (min-width: 1361px) and (max-width:1438px){
+    .tarjetas {
+        height: 25vw;
+        width: 25vw;
+        @include tarjeta
+    }
+    
+    
+}
+
+@media (min-width: 1200px) and (max-width:1360px){
+    .tarjetas {
+        height: 30vw;
+        width: 30vw;
+        @include tarjeta
+    }
+    
+    
+}
+
+@media (min-width: 800px) and (max-width:1199px){
+    .tarjetas {
+        height: 50vw;
+        width: 50vw;
+        @include tarjeta
+    }
+    
+    
+}
+
+@media (min-width: 350px) and (max-width:799px){
+    .tarjetas {
+        height: 90vw;
+        width: 90vw;
+        @include tarjeta
+    }
 }
 
 .img {
@@ -61,8 +105,6 @@ h2 {
 
 .tarjetas:hover {
     background-color: $color-rojo;
-    height: 500px;
-    width: 500px;
 }
 
 h3 {

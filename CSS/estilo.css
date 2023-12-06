@@ -26,17 +26,13 @@ nav ul li {
 /* Header */
 header {
   background-color: #CF573A;
-  margin: 0px 0px;
-  padding: 1rlh;
+  padding: 0px 10rch;
   display: flex;
   justify-content: space-around;
 }
 
 .logo {
-  width: 40rch;
-  padding: 0;
-  padding-bottom: 5%;
-  margin: 0;
+  width: 300px;
 }
 
 a {
@@ -94,18 +90,71 @@ h2 {
 }
 
 /* Tarjetas */
-.tarjetas {
-  height: 400px;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  background-color: #ddd;
-  border: 1px solid black;
-  align-items: center;
-  display: inline-block;
-  transition: 1s;
+@media (min-width: 1439px) {
+  .tarjetas {
+    height: 20vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-block;
+    transition: 1s;
+  }
 }
-
+@media (min-width: 1361px) and (max-width: 1438px) {
+  .tarjetas {
+    height: 25vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-block;
+    transition: 1s;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1360px) {
+  .tarjetas {
+    height: 30vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-block;
+    transition: 1s;
+  }
+}
+@media (min-width: 800px) and (max-width: 1199px) {
+  .tarjetas {
+    height: 50vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-block;
+    transition: 1s;
+  }
+}
+@media (min-width: 350px) and (max-width: 799px) {
+  .tarjetas {
+    height: 90vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-block;
+    transition: 1s;
+  }
+}
 .img {
   height: 50%;
   width: 50%;
@@ -113,8 +162,6 @@ h2 {
 
 .tarjetas:hover {
   background-color: #CF573A;
-  height: 500px;
-  width: 500px;
 }
 
 h3 {
